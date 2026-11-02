@@ -1,0 +1,32 @@
+* { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
+body { background-color: #fdf2f8; color: #333; line-height: 1.6; }
+header { background-color: #831843; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+.navbar { max-width: 1000px; margin: 0 auto; display: flex; justify-content: space-between; align-items: center; padding: 1rem 2rem; }
+.logo { color: #ffffff; font-size: 1.4rem; font-weight: bold; }
+.nav-links { list-style: none; display: flex; gap: 1.5rem; }
+.nav-links a { color: #fce7f3; text-decoration: none; font-weight: 500; }
+.nav-links a:hover, .nav-links a.active { color: #f472b6; border-bottom: 2px solid #f472b6; }
+.container { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+.card, .profile-card { background: #ffffff; border-radius: 10px; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 4px 12px rgba(0,0,0,0.05); }
+.profile-card { text-align: center; border-top: 5px solid #db2777; }
+.profile-img { width: 150px; height: 150px; border-radius: 50%; object-fit: cover; border: 4px solid #db2777; margin-bottom: 1rem; }
+h1 { color: #831843; margin-bottom: 0.5rem; }
+h2 { color: #9d174d; margin-bottom: 1rem; }
+.section-tag { font-size: 0.85rem; font-weight: bold; color: #db2777; letter-spacing: 1px; display: block; margin-bottom: 0.3rem; }
+.subtitle { color: #64748b; font-size: 1.1rem; margin-bottom: 1rem; }
+.email-btn { display: inline-block; background-color: #db2777; color: white; padding: 0.6rem 1.2rem; border-radius: 6px; text-decoration: none; font-weight: 600; margin-top: 0.5rem; }
+.skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1rem; margin-top: 1rem; }
+.skill-box { background-color: #fff1f2; border-radius: 6px; padding: 1.2rem; border-left: 5px solid #db2777; display: flex; flex-direction: column; justify-content: center; }
+.skill-num { font-size: 0.9rem; font-weight: bold; color: #9d174d; margin-bottom: 0.3rem; }
+.skill-name { font-size: 1rem; font-weight: 600; color: #831843; }
+.table-wrapper { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; margin-top: 1rem; }
+th, td { padding: 0.8rem 1rem; text-align: left; border-bottom: 1px solid #fce7f3; }
+th { background-color: #fdf2f8; color: #831843; }
+td a { color: #db2777; text-decoration: none; font-weight: 500; }
+.form-group { margin-bottom: 1.2rem; }
+.form-group label { display: block; margin-bottom: 0.4rem; font-weight: 600; color: #831843; }
+.form-group input, .form-group textarea { width: 100%; padding: 0.75rem; border: 1px solid #fbcfe8; border-radius: 6px; font-size: 1rem; }
+.submit-btn { background-color: #db2777; color: white; padding: 0.8rem 2rem; border: none; border-radius: 6px; font-size: 1rem; font-weight: 600; cursor: pointer; }
+.bio-text { font-size: 1.05rem; color: #4b5563; text-align: justify; }
+footer { text-align: center; padding: 1.5rem; background-color: #831843; color: #fce7f3; margin-top: 3rem; }
